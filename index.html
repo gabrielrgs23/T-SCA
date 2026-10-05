@@ -39,21 +39,45 @@
 
     <!-- CSS -->
 
-    css/reset.css
+    <link
+        rel="stylesheet"
+        href="css/reset.css"
+    >
 
-    css/partners.css
+    <link
+        rel="stylesheet"
+        href="css/partners.css"
+    >
 
-    css/variables.css
+    <link
+        rel="stylesheet"
+        href="css/variables.css"
+    >
 
-    css/global.css
+    <link
+        rel="stylesheet"
+        href="css/global.css"
+    >
 
-    css/navbar.css
+    <link
+        rel="stylesheet"
+        href="css/navbar.css"
+    >
 
-    css/hero.css
+    <link
+        rel="stylesheet"
+        href="css/hero.css"
+    >
 
-    css/cards.css
+    <link
+        rel="stylesheet"
+        href="css/cards.css"
+    >
 
-    css/footer.css
+    <link
+        rel="stylesheet"
+        href="css/footer.css"
+    >
 
 </head>
 
@@ -69,9 +93,15 @@ HEADER
 
         <nav class="navbar">
 
-            #home
+            <a
+                href="#home"
+                class="logo"
+            >
 
-                assets/logo.png
+                <img
+                    src="assets/logo.png"
+                    alt="T-SCA"
+                >
 
             </a>
 
@@ -79,7 +109,7 @@ HEADER
 
                 <li>
 
-                    #home
+                    <a href="#home">
 
                         Home
 
@@ -89,7 +119,7 @@ HEADER
 
                 <li>
 
-                    #solucoes
+                    <a href="#solucoes">
 
                         Soluções
 
@@ -99,7 +129,7 @@ HEADER
 
                 <li>
 
-                    #empresa
+                    <a href="#empresa">
 
                         Empresa
 
@@ -109,7 +139,7 @@ HEADER
 
                 <li>
 
-                    #partners
+                    <a href="#partners">
 
                         Parceiros
 
@@ -119,7 +149,7 @@ HEADER
 
                 <li>
 
-                    #contato
+                    <a href="#contato">
 
                         Contato
 
@@ -130,10 +160,8 @@ HEADER
             </ul>
 
             <a
-                href="https://wa.me/5511921920937"
+                href="#contato"
                 class="btn-primary nav-button"
-                target="_blank"
-                rel="noopener noreferrer"
             >
 
                 Solicitar orçamento
@@ -165,9 +193,15 @@ HERO
     id="home"
 >
 
+    <!-- Background -->
+
     <div class="hero-background"></div>
 
+    <!-- Overlay -->
+
     <div class="hero-overlay"></div>
+
+    <!-- Gradient -->
 
     <div class="hero-gradient"></div>
 
@@ -201,13 +235,19 @@ HERO
 
             <div class="hero-buttons">
 
-                #partners
+                <a
+                    href="#contato"
+                    class="btn-primary"
+                >
 
                     Conhecer parceiros
 
                 </a>
 
-                #solucoes
+                <a
+                    href="#solucoes"
+                    class="btn-secondary"
+                >
 
                     Conheça nossas soluções
 
@@ -259,13 +299,16 @@ SOLUÇÕES
 
         <div class="solutions-grid">
 
-            <!-- FORNOS -->
+            <!-- ========================= -->
 
             <article class="solution-card">
 
                 <div class="solution-image">
 
-                    assets/forno-industrial.png
+                    <img
+                        src="assets/forno-industrial.png"
+                        alt="Fornos Industriais"
+                    >
 
                 </div>
 
@@ -291,7 +334,7 @@ SOLUÇÕES
 
                     </p>
 
-                    #contato
+                    <a href="#contato">
 
                         Solicitar orçamento
 
@@ -301,13 +344,16 @@ SOLUÇÕES
 
             </article>
 
-            <!-- FOGÕES -->
+            <!-- ========================= -->
 
             <article class="solution-card">
 
                 <div class="solution-image">
 
-                    assets/fogao-industrial.png
+                    <img
+                        src="assets/fogao-industrial.png"
+                        alt="Fogões Industriais"
+                    >
 
                 </div>
 
@@ -333,7 +379,7 @@ SOLUÇÕES
 
                     </p>
 
-                    #contato
+                    <a href="#contato">
 
                         Solicitar orçamento
 
@@ -343,13 +389,16 @@ SOLUÇÕES
 
             </article>
 
-            <!-- COIFAS -->
+            <!-- ========================= -->
 
             <article class="solution-card">
 
                 <div class="solution-image">
 
-                    assets/coifas.png
+                    <img
+                        src="assets/coifas.png"
+                        alt="Coifas Industriais"
+                    >
 
                 </div>
 
@@ -375,7 +424,7 @@ SOLUÇÕES
 
                     </p>
 
-                    #contato
+                    <a href="#contato">
 
                         Solicitar orçamento
 
@@ -385,13 +434,16 @@ SOLUÇÕES
 
             </article>
 
-            <!-- PROJETOS -->
+            <!-- ========================= -->
 
             <article class="solution-card">
 
                 <div class="solution-image">
 
-                    assets/projetos-personalizados.png
+                    <img
+                        src="assets/projetos-personalizados.png"
+                        alt="Projetos Personalizados"
+                    >
 
                 </div>
 
@@ -417,7 +469,7 @@ SOLUÇÕES
 
                     </p>
 
-                    #contato
+                    <a href="#contato">
 
                         Solicitar orçamento
 
@@ -433,8 +485,10 @@ SOLUÇÕES
 
 </section>
 
+
+
 <!-- ==========================================================
-PARCEIROS
+    PARCEIROS
 ========================================================== -->
 
 <section
@@ -443,6 +497,10 @@ PARCEIROS
 >
 
     <div class="container">
+
+        <!-- ==================================================
+            CABEÇALHO
+        =================================================== -->
 
         <div class="partners-header">
 
@@ -469,26 +527,36 @@ PARCEIROS
 
         </div>
 
+
+        <!-- ==================================================
+            GRID DOS PARCEIROS
+        =================================================== -->
+
         <div class="partners-grid">
 
+
             <!-- ==================================================
-            FASTINOX
+                FASTINOX
+                PRIMEIRA LINHA — 50%
             =================================================== -->
 
             <a
-                href="https://fastinoxcozinhas.com.br/"
+                href="parceiros/fastinox.html"
                 class="partner-card partner-half"
-                target="_blank"
-                rel="noopener noreferrer"
             >
 
                 <div class="partner-image">
 
-                    assets/images/hover/fastinox-hover.png
+                    <img
+                        src="assets/images/hover/fastinox-hover.png"
+                        alt="Fastinox"
+                    >
 
                 </div>
 
+
                 <div class="partner-overlay"></div>
+
 
                 <div class="partner-content">
 
@@ -498,6 +566,7 @@ PARCEIROS
 
                     </h3>
 
+
                     <p>
 
                         Referência nacional em equipamentos de aço inox
@@ -505,6 +574,7 @@ PARCEIROS
                         qualidade e robustez para projetos profissionais.
 
                     </p>
+
 
                     <div class="partner-footer">
 
@@ -522,24 +592,30 @@ PARCEIROS
 
             </a>
 
+
+
             <!-- ==================================================
-            TUBOAR
+                TUBOAR
+                PRIMEIRA LINHA — 50%
             =================================================== -->
 
             <a
-                href="https://tuboar.com.br/"
+                href="parceiros/tuboar.html"
                 class="partner-card partner-half"
-                target="_blank"
-                rel="noopener noreferrer"
             >
 
                 <div class="partner-image">
 
-                    assets/images/hover/tuboar-hover.png
+                    <img
+                        src="assets/images/hover/tuboar-hover.png"
+                        alt="Tuboar"
+                    >
 
                 </div>
 
+
                 <div class="partner-overlay"></div>
+
 
                 <div class="partner-content">
 
@@ -549,6 +625,7 @@ PARCEIROS
 
                     </h3>
 
+
                     <p>
 
                         Especialista em sistemas de exaustão,
@@ -556,6 +633,7 @@ PARCEIROS
                         industriais de alta performance.
 
                     </p>
+
 
                     <div class="partner-footer">
 
@@ -573,24 +651,30 @@ PARCEIROS
 
             </a>
 
+
+
             <!-- ==================================================
-            SOLIDUS
+                SOLIDUS
+                SEGUNDA LINHA — 33,33%
             =================================================== -->
 
             <a
-                href="https://www.solidusequipamentos.com.br/"
-                class="partner-card partner-half"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="parceiros/solidus.html"
+                class="partner-card partner-third"
             >
 
                 <div class="partner-image">
 
-                    assets/images/hover/solidus-hover.png
+                    <img
+                        src="assets/images/hover/solidus-hover.png"
+                        alt="Solidus"
+                    >
 
                 </div>
 
+
                 <div class="partner-overlay"></div>
+
 
                 <div class="partner-content">
 
@@ -600,6 +684,7 @@ PARCEIROS
 
                     </h3>
 
+
                     <p>
 
                         Equipamentos industriais desenvolvidos
@@ -607,6 +692,7 @@ PARCEIROS
                         e durabilidade em cozinhas profissionais.
 
                     </p>
+
 
                     <div class="partner-footer">
 
@@ -624,24 +710,30 @@ PARCEIROS
 
             </a>
 
+
+
             <!-- ==================================================
-            MITTO
+                MITTO
+                SEGUNDA LINHA — 33,33%
             =================================================== -->
 
             <a
-                href="https://mittobrasil.com.br/"
-                class="partner-card partner-half"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="parceiros/mitto.html"
+                class="partner-card partner-third"
             >
 
                 <div class="partner-image">
 
-                    assets/images/hover/mitto-hover.png
+                    <img
+                        src="assets/images/hover/mitto-hover.png"
+                        alt="Mitto"
+                    >
 
                 </div>
 
+
                 <div class="partner-overlay"></div>
+
 
                 <div class="partner-content">
 
@@ -651,6 +743,7 @@ PARCEIROS
 
                     </h3>
 
+
                     <p>
 
                         Referência em bebidas premium saudáveis,
@@ -658,6 +751,7 @@ PARCEIROS
                         em qualidade e sustentabilidade.
 
                     </p>
+
 
                     <div class="partner-footer">
 
@@ -674,6 +768,66 @@ PARCEIROS
                 </div>
 
             </a>
+
+
+
+            <!-- ==================================================
+                NETTER
+                SEGUNDA LINHA — 33,33%
+            =================================================== -->
+
+            <a
+                href="parceiros/netter.html"
+                class="partner-card partner-third"
+            >
+
+                <div class="partner-image">
+
+                    <img
+                        src="assets/images/hover/netter-hover.png"
+                        alt="Netter"
+                    >
+
+                </div>
+
+
+                <div class="partner-overlay"></div>
+
+
+                <div class="partner-content">
+
+                    <h3>
+
+                        Netter
+
+                    </h3>
+
+
+                    <p>
+
+                        Soluções para cozinhas industriais focadas
+                        em produtividade, eficiência operacional
+                        e alto desempenho para grandes projetos.
+
+                    </p>
+
+
+                    <div class="partner-footer">
+
+                        <span class="partner-link">
+
+                            Conhecer parceiro
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </a>
+
 
         </div>
 
@@ -685,10 +839,7 @@ PARCEIROS
 CATÁLOGOS
 =========================================== -->
 
-<section
-    class="catalogs"
-    id="catalogos"
->
+<section class="catalogs" id="catalogos">
 
     <div class="container">
 
@@ -719,72 +870,47 @@ CATÁLOGOS
 
                 <div class="catalog-features">
 
-                    <div class="catalog-feature">
+    <div class="catalog-feature">
+        <div class="feature-icon">
+            <i class="fa-solid fa-book"></i>
+        </div>
 
-                        <div class="feature-icon">
+        <div class="feature-text">
+            Catálogos técnicos sempre atualizados
+        </div>
+    </div>
 
-                            <i class="fa-solid fa-book"></i>
+    <div class="catalog-feature">
+        <div class="feature-icon">
+            <i class="fa-regular fa-file-lines"></i>
+        </div>
 
-                        </div>
+        <div class="feature-text">
+            Especificações técnicas completas
+        </div>
+    </div>
 
-                        <div class="feature-text">
+    <div class="catalog-feature">
+        <div class="feature-icon">
+            <i class="fa-solid fa-headset"></i>
+        </div>
 
-                            Catálogos técnicos sempre atualizados
+        <div class="feature-text">
+            Atendimento consultivo especializado
+        </div>
+    </div>
 
-                        </div>
+    <div class="catalog-feature">
+        <div class="feature-icon">
+            <i class="fa-solid fa-gear"></i>
+        </div>
 
-                    </div>
+        <div class="feature-text">
+            Soluções para qualquer porte de projeto
+        </div>
+    </div>
 
-                    <div class="catalog-feature">
-
-                        <div class="feature-icon">
-
-                            <i class="fa-regular fa-file-lines"></i>
-
-                        </div>
-
-                        <div class="feature-text">
-
-                            Especificações técnicas completas
-
-                        </div>
-
-                    </div>
-
-                    <div class="catalog-feature">
-
-                        <div class="feature-icon">
-
-                            <i class="fa-solid fa-headset"></i>
-
-                        </div>
-
-                        <div class="feature-text">
-
-                            Atendimento consultivo especializado
-
-                        </div>
-
-                    </div>
-
-                    <div class="catalog-feature">
-
-                        <div class="feature-icon">
-
-                            <i class="fa-solid fa-gear"></i>
-
-                        </div>
-
-                        <div class="feature-text">
-
-                            Soluções para qualquer porte de projeto
-
-                        </div>
-
-                    </div>
-
-                </div>
-
+</div>
             </div>
 
             <!-- FORMULÁRIO -->
@@ -870,6 +996,14 @@ CATÁLOGOS
 
                             <input type="checkbox">
 
+                            Netter
+
+                        </label>
+
+                        <label>
+
+                            <input type="checkbox">
+
                             Tuboar
 
                         </label>
@@ -941,6 +1075,7 @@ EMPRESA
 
 </section>
 
+
 <!-- ===========================================
 CONTATO
 =========================================== -->
@@ -976,10 +1111,8 @@ CONTATO
         </div>
 
         <a
-            href="https://wa.me/5511921920937"
+            href="https://wa.me/5511999999999"
             class="btn-primary"
-            target="_blank"
-            rel="noopener noreferrer"
         >
 
             Solicitar orçamento
@@ -994,16 +1127,15 @@ CONTATO
 FOOTER
 ========================================================== -->
 
-<footer
-    class="footer"
-    id="contato"
->
+<footer class="footer" id="contato">
 
     <div class="footer-overlay"></div>
 
     <div class="container">
 
-        <!-- TOPO -->
+        <!-- =======================
+        TOPO
+        ======================== -->
 
         <div class="footer-top">
 
@@ -1011,7 +1143,11 @@ FOOTER
 
             <div class="footer-about">
 
-                assets/images/logo.png
+                <img
+                    src="assets/images/logo.png"
+                    alt="T-SCA"
+                    class="footer-logo"
+                >
 
                 <h2>
 
@@ -1031,24 +1167,19 @@ FOOTER
 
                 <div class="footer-social">
 
-                    #
+                    <a href="#" aria-label="Instagram">
 
                         <i class="fa-brands fa-instagram"></i>
 
                     </a>
 
-                    #
+                    <a href="#" aria-label="LinkedIn">
 
                         <i class="fa-brands fa-linkedin-in"></i>
 
                     </a>
 
-                    <a
-                        href="https://wa.me/5511921920937"
-                        aria-label="WhatsApp"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <a href="#" aria-label="WhatsApp">
 
                         <i class="fa-brands fa-whatsapp"></i>
 
@@ -1066,41 +1197,17 @@ FOOTER
 
                 <div class="footer-column">
 
-                    <h4>
+                    <h4>Soluções</h4>
 
-                        Soluções
+                    <a href="#solutions">Cozinhas Industriais</a>
 
-                    </h4>
+                    <a href="#solutions">Equipamentos em Aço Inox</a>
 
-                    #solucoes
+                    <a href="#solutions">Projetos Personalizados</a>
 
-                        Cozinhas Industriais
+                    <a href="#solutions">Instalações</a>
 
-                    </a>
-
-                    #solucoes
-
-                        Equipamentos em Aço Inox
-
-                    </a>
-
-                    #solucoes
-
-                        Projetos Personalizados
-
-                    </a>
-
-                    #solucoes
-
-                        Instalações
-
-                    </a>
-
-                    #catalogos
-
-                        Catálogos
-
-                    </a>
+                    <a href="#catalogos">Catálogos</a>
 
                 </div>
 
@@ -1108,35 +1215,15 @@ FOOTER
 
                 <div class="footer-column">
 
-                    <h4>
+                    <h4>Empresa</h4>
 
-                        Empresa
+                    <a href="#about">Quem Somos</a>
 
-                    </h4>
+                    <a href="#partners">Parceiros</a>
 
-                    #empresa
+                    <a href="#projetos">Projetos</a>
 
-                        Quem Somos
-
-                    </a>
-
-                    #partners
-
-                        Parceiros
-
-                    </a>
-
-                    #projetos
-
-                        Projetos
-
-                    </a>
-
-                    #contato
-
-                        Contato
-
-                    </a>
+                    <a href="#contato">Contato</a>
 
                 </div>
 
@@ -1144,15 +1231,11 @@ FOOTER
 
                 <div class="footer-column">
 
-                    <h4>
+                    <h4>Contato</h4>
 
-                        Contato
+                    <a href="tel:+5511999999999">
 
-                    </h4>
-
-                    tel:+5511921920937
-
-                        (11) 92192-0937
+                        (11) 99999-9999
 
                     </a>
 
@@ -1174,13 +1257,18 @@ FOOTER
 
         </div>
 
-        <!-- BOTTOM -->
+        <!-- =======================
+        BOTTOM
+        ======================== -->
 
         <div class="footer-bottom">
 
             <div class="footer-brand">
 
-                assets/images/logo.png
+                <img
+                    src="assets/images/logo.png"
+                    alt="T-SCA"
+                >
 
                 <p>
 
@@ -1210,11 +1298,7 @@ FOOTER
 
                     <i class="fa-solid fa-medal"></i>
 
-                    <span>
-
-                        Qualidade
-
-                    </span>
+                    <span>Qualidade</span>
 
                 </div>
 
@@ -1222,11 +1306,7 @@ FOOTER
 
                     <i class="fa-solid fa-shield-halved"></i>
 
-                    <span>
-
-                        Segurança
-
-                    </span>
+                    <span>Segurança</span>
 
                 </div>
 
@@ -1234,11 +1314,7 @@ FOOTER
 
                     <i class="fa-solid fa-gears"></i>
 
-                    <span>
-
-                        Personalização
-
-                    </span>
+                    <span>Personalização</span>
 
                 </div>
 
@@ -1246,11 +1322,7 @@ FOOTER
 
                     <i class="fa-solid fa-handshake"></i>
 
-                    <span>
-
-                        Parceria
-
-                    </span>
+                    <span>Parceria</span>
 
                 </div>
 
@@ -1268,41 +1340,39 @@ MENU MOBILE
 
 <div class="mobile-menu">
 
-    #home
+    <a href="#home">
 
         Home
 
     </a>
 
-    #solucoes
+    <a href="#solucoes">
 
         Soluções
 
     </a>
 
-    #empresa
+    <a href="#empresa">
 
         Empresa
 
     </a>
 
-    #partners
+    <a href="#partners">
 
         Parceiros
 
     </a>
 
-    #contato
+    <a href="#contato">
 
         Contato
 
     </a>
 
     <a
-        href="https://wa.me/5511921920937"
+        href="#contato"
         class="btn-primary"
-        target="_blank"
-        rel="noopener noreferrer"
     >
 
         Solicitar orçamento
@@ -1315,7 +1385,7 @@ MENU MOBILE
 JAVASCRIPT
 =========================================== -->
 
-js/app.jsscript>
+<script src="js/app.js"></script>
 
 </body>
 
